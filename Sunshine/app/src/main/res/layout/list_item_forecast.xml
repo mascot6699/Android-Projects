@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:textAlignment="center"
+    android:clickable="true"
+    style="@style/TextAppearance.AppCompat.Base.SearchResult.Title"
+    android:gravity="center_vertical"
+    android:minHeight="@dimen/ListPreferedItemHeight">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Today Sunny 88/ 66"
+        android:id="@+id/list_item_forecast_textview"
+        android:layout_weight="0.10"
+        android:textSize = "20dp"
+        android:textAlignment="center"
+        />
+</LinearLayout>
